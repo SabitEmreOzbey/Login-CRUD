@@ -10,12 +10,6 @@ echo "<form role='search' action='search.php'>";
     echo "</div>";
 echo "</form>";
  
-// create product button
-echo "<div class='right-button-margin'>";
-    echo "<a href='create_product.php' class='btn btn-primary pull-right'>";
-        echo "<span class='glyphicon glyphicon-plus'></span> Create Product";
-    echo "</a>";
-echo "</div>";
  
 // display the products if there are any
 if($total_rows>0){

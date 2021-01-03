@@ -29,7 +29,7 @@ $page_title = "Read One Product";
 include_once "layout_head.php";
  
 // read products button
-echo "<div class='right-button-margin'>";
+echo "<div>";
     echo "<a href='products.php' class='btn btn-primary pull-right'>";
         echo "<span class='glyphicon glyphicon-list'></span> Read Products";
     echo "</a>";

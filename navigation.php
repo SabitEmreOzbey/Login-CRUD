@@ -21,6 +21,10 @@
                 <li <?php echo $page_title == "Index" ? "class='active'" : ""; ?>>
                     <a href="<?php echo $home_url; ?>">Home</a>
                 </li>
+                <li <?php
+                        echo $page_title=="Read Products" ? "class='active'" : ""; ?> >
+                    <a href="<?php echo $home_url; ?>products.php">Products</a>
+                </li>
             </ul>
 
             <?php
